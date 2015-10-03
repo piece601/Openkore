@@ -117,7 +117,7 @@ callSignGM
 #════════════
 #║ 鎖定地圖 ║
 #════════════
-lockMap
+lockMap prt_fild08
 # 地圖名稱以 /tables/maps.txt 內的地圖英文名稱為準，後面不加 .rsw
 # 鎖定練功地圖
 # 商人要自動開設露天商店這格必須設為要擺攤的地圖
@@ -139,7 +139,7 @@ lockMap_randY
 #══════════════
 #║ 存儲點地圖 ║
 #══════════════
-saveMap
+saveMap izlude
 # 地圖名稱以 /tables/maps.txt 內的地圖英文名稱為準，後面不加 .rsw
 # 角色重生點的地圖名稱，如想使用瞬移物品回城 必須設定
 
@@ -595,9 +595,9 @@ buyAuto {
 #════════════
 # 要賣的物品，在  /control/items_control.txt 中設定
 # Npc 座標資料，請參考 /tables/npcs.txt
-sellAuto 0
+sellAuto 1
 # 是否開啟自動賣物功能［0 = 不使用］［1 = 開啟自動賣物］
-sellAuto_npc 
+sellAuto_npc izlude_in 57 110
 # 自動賣物的 NPC 資料 ［英文地圖+NPC的[座標] ］
 # ※不包含NPC的名字 例如: payon 159 96
 sellAuto_distance 5
@@ -1666,9 +1666,9 @@ autoResponseOnHeal 0
 # 此為 AI 全自動加點數，適合掛整月都不去理的
 # 一般天天都會去檢查的玩家，可於 kore 視窗打指令手動加點數
 
-statsAddAuto 0
+statsAddAuto 1
 # 是否開啟自動加屬性點數
-statsAddAuto_list
+statsAddAuto_list 15 dex, 50 agi, 50 str
 # 要加的屬性 ［逗號區隔］
 statsAddAuto_dontUseBonus 0
 # 不將 job 加成的素質點也算在內，詳情請參考英文說明書
