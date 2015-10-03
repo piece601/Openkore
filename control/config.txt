@@ -117,7 +117,7 @@ callSignGM
 #════════════
 #║ 鎖定地圖 ║
 #════════════
-lockMap prt_fild08
+lockMap prt_fild07
 # 地圖名稱以 /tables/maps.txt 內的地圖英文名稱為準，後面不加 .rsw
 # 鎖定練功地圖
 # 商人要自動開設露天商店這格必須設為要擺攤的地圖
