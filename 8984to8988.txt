@@ -1,0 +1,7 @@
+M       F:\OpenKore_SVN\openkore\trunk\src\Misc.pm
+M       F:\OpenKore_SVN\openkore\trunk\src\Network\Send.pm
+M       F:\OpenKore_SVN\openkore\trunk\src\ChatQueue.pm
+M       F:\OpenKore_SVN\tablepack\trunk\tables\twRO\itemsdescriptions.txt
+M       F:\OpenKore_SVN\tablepack\trunk\tables\twRO\items.txt
+M       F:\OpenKore_SVN\tablepack\trunk\tables\twRO\chinese\tables\servers.txt
+M       F:\OpenKore_SVN\tablepack\trunk\tables\servers.txt
